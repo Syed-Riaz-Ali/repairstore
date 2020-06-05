@@ -1,0 +1,978 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/********************************************* top nav *********************************************/
+
+.main-container-top-nav {
+    margin: 0;
+    padding: 0;
+    background-color: #efeeeb;
+}
+
+.top-nav-row {
+    padding: 0 !important;
+}
+
+.top-nav-box ul{
+    list-style: none;
+    padding-left: 0;
+}
+.top-nav-box li{
+    display: inline;
+    padding: 0 1rem;
+    padding-top: 1rem;
+}
+.top-nav-box a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: #323333;
+}
+
+.top-nav-box a:hover {
+    text-decoration: none;
+    color: #c45d3c
+}
+
+
+.top-nav-box{
+    padding-top: 1rem;
+}
+.top-nav-box p {
+    margin-bottom: 0;
+}
+
+/********************************************* middle nav *********************************************/
+
+.middle-nav-content {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-nav-logo i {
+    padding-right: 1rem;
+    color: #dc3545;
+}
+
+.middle-nav-box {
+    padding-bottom: 0.5rem;
+}
+
+/********************************************* top header *********************************************/
+
+#top-header {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 150, 12, 0.6);
+    text-align: center;
+}
+
+.container-fluid{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row{
+    margin: 0;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.icon-box {
+    text-align: center;
+    padding-top: 0.75rem;
+}
+.social-media-links {
+    list-style: none;
+    
+}
+.social-media-icons {
+    display: inline;
+}
+.social-media-anchor {
+    text-decoration: none;
+    color: black;
+    margin-right: 0.75rem;
+}
+
+/******************************************** Navigation Bar *********************************************/
+
+.nav-item {
+    padding: 5px 20px;
+}
+
+.nav-item:hover {
+    color: #fff;
+    font-size: 15px;
+}
+.navbar-brand{
+    font-weight: 600;
+}
+
+
+
+
+/******************************************** pics slider *********************************************/
+
+.pic-slider {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/******************************************** services *********************************************/
+
+.service-heading {
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.service-heading h4{
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.service-heading hr {
+    width: 30%;
+    text-align: center;
+    color: black;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    /* padding: 2rem; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.first-div{
+    background: #f7f6f3d8;
+    padding: 20px;
+
+}
+
+.second-div{
+    background: #fff;
+
+}
+
+.service-inner-image img{
+    width: 70px;
+    vertical-align: middle;
+}
+
+.service-inner-image{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.service-inner-content{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.service-box-para {
+    padding: 0.5rem 0.75rem;
+}
+
+.service-box-heading{
+    text-decoration: none;
+
+}
+
+.service-inner-image a{
+    text-decoration: none;
+}
+
+.service-inner-image a:hover{
+    width: 50px;
+    text-decoration: none;
+}
+
+.service-box-heading a{
+    text-decoration: none;
+    color: #000;
+}
+
+.service-box-heading a:hover {
+    font-size: 25px;
+    color: #727272;
+    text-decoration: none;
+}
+
+
+/******************************************** parallex *********************************************/
+
+.parallex {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),url(images/floors.jpg) repeat fixed 100%;
+}
+.parallex-inner{
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+h1{
+    text-align: center;
+    font-size: 500%;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+/******************************************** About Us Page *********************************************/
+
+
+/******************************************** Jumbotron *********************************************/
+
+.jumbotron {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)) ,url(images/bulb.jpg) repeat fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+.jumbotron p {
+   color: #fff;
+   font-weight: 500;
+
+}
+
+
+/******************************************** Content Header *********************************************/
+
+
+.content-header {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/******************************************** Content Section *********************************************/
+
+#content-section {
+    margin-bottom: 4rem;
+}
+
+.content-box{
+    /* border: 1px solid black; */
+}
+
+.content-box img {
+    opacity: 0.7;
+    width: 100%;
+}
+
+.content-about-inner {
+    text-align: left;
+}
+
+.content-about-inner h5 {
+    color: #dc3545;
+    line-height: 2rem;
+}
+
+.content-about-inner p {
+    line-height: 1.5rem;
+    font-size: 0.95rem;
+}
+.content-about-inner h4 {
+    color: #dc3545;
+    font-weight: 500;
+}
+
+/******************************************** Standard *********************************************/
+
+.standards {
+    color: #fff;
+    /* background: #f1e3a9; */
+    margin-top: 3rem;
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.standard-heading {
+    padding-bottom: 1.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #c45d3c;
+    font-weight: 600;
+}
+
+.standard-para {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.standards p{
+    color: #b4b0b0;
+}
+
+.feature-icon {
+    color: #c45d3c;
+}
+
+.feature-content p{
+    color: #b4b0b0;
+}
+
+
+/******************************************** Features section *********************************************/
+
+.features-section {
+    /* background: #f1e3a9; */
+    color: #fff;
+}
+
+.feature-box {
+    padding: 1rem;
+}
+.feature-inner {
+    padding: 1rem;
+}
+.feature-content{
+    padding: 1rem;
+}
+
+/******************************************** Prallex About Page *********************************************/
+
+.parallex-features {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(images/pathar.jpeg) repeat fixed 100%;
+}
+
+.parallex-inner-features{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+/******************************************** contact quote *********************************************/
+
+#contact-quote {
+    background-color: #efeeeb;
+}
+.contact-quote-row {
+    padding: 0 5rem;
+}
+
+.contact-quote-container {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact-quote-inner1 {
+    text-align: center;
+}
+
+.contact-quote-inner2 {
+    text-align: left;
+}
+
+
+
+
+/******************************************** About Page ends *********************************************/
+
+/******************************************** Footer *********************************************/
+
+#footer {
+    background-color: #323333;
+    color: #727272;
+}
+
+.footer-row {
+    padding: 3rem 4rem;
+}
+
+
+.footer-content{
+    text-align: left;
+}
+
+
+.logo h4 {
+    
+    color: #fff;
+    padding-bottom: 1.5rem;
+    
+}
+
+.logo ul {
+    list-style: none;
+    color: #fff;
+    padding-bottom: 1.5rem;
+    font-size: 1.3rem;
+    padding-left: 0 !important;
+}
+
+.logo p {
+    line-height: 1.3rem;
+}
+
+.logo-content ul{
+    list-style: none;
+    padding-left: 0;
+}
+.logo-content ul li{
+    padding-bottom: 1rem;
+}
+
+.logo-content ul li a{
+    text-decoration: none;
+    color: #727272;
+}
+
+.logo-content ul li a:hover{
+    color: #dc3545;
+}
+
+/******************************************** News Letter *********************************************/
+
+.letter {
+    background-color: #323333;
+    color: #727272;
+}
+
+.news-letter-inner{
+    text-align: left;
+}
+.news-letter-inner h4{
+    color: #fff;
+}
+
+.news-letter-row {
+    padding: 3rem 4rem;
+}
+
+.copy-right-section {
+    background: #2a2b2b;
+}
+
+
+/******************************************** Contact Us Page *********************************************/
+
+
+.form-box{
+    text-align: left;
+}
+
+.form-heading {
+   text-align: left;
+}
+
+.form-heading h4{
+    font-weight: 700;
+ }
+
+.widget {
+    background: #efeeeb;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    margin: 1.2rem 0;
+}
+
+.widget-address, .widget-schedule, .widget-phone {
+    background-color: #fff;
+
+}
+
+.well-inner{
+    padding: 2rem 1rem;
+}
+
+.well-inner ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.widget-order {
+    display: flex;
+    justify-content: end;
+}
+
+.widget-order h5{
+    padding-left: 1rem;
+}
+
+.widget-order i {
+    color: rgba(255, 0, 0, 0.74);
+}
+
+.contact-jumboton{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)) ,url(images/phone.jpg) repeat fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.well-inner strong{
+    padding-left: 2rem;
+}
+
+/******************************************** Services Page *********************************************/
+
+.jumbotron-services {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)) ,url(images/photograph-of-a-kitchen-counter-1271940.jpg) repeat fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.jumbotron-services p{
+    color: #fff;
+}
+
+/******************************************** Team Members Page *********************************************/
+
+#repair-team {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-body a:hover{
+    font-size: 1.2rem;
+    color: rgba(63, 58, 58, 0.589);
+}
+.jumbotron-team {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)) ,url(images/team.jpeg) repeat fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.jumbotron-team p{
+    color: #fff;
+}
+
+.member-name a{
+    text-decoration: none;
+    color: #dc3545;
+}
+
+
+
+/******************************************** Members Detail *********************************************/
+
+#details {
+    margin: 2rem;
+}
+.bio-data {
+    color: #323333;
+    text-align: left;
+}
+
+.bio-data h2{
+    color: #323333;
+}
+.address-heading {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.address-heading i {
+    padding-right: 1.5rem;
+    color: rgba(255, 0, 0, 0.699);
+}
+
+.details-box{
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+  
+/******************************************** testimonials *********************************************/
+
+
+.title{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.testimonial .container-fluid {
+    padding: 100px;
+}
+
+.img-box{
+    width: 135px;
+    height: 135px;
+}
+
+
+.testimonials .carousel-indicators{
+    top: 400px;
+}
+
+
+
+
+
+
+/******************************************** Banner *********************************************/
+
+
+
+.banner-box {
+    justify-items: center;
+}
+.ban-left{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(images/uncle1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.ban-right{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url(images/bricks-black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-left: 4rem;
+    text-align: center;
+    color: #fff;
+
+}
+.section-info h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+}
+.section-info p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 300;
+    color: #b4b0b0;
+}
+.heading-white {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b4b0b0;
+}
+
+.ban-1 {
+    text-align: left;
+    width: 100%;
+    color: #b4b0b0;
+}
+.ban-1 p{
+    text-align: left;
+    width: 100%;
+    color: #efeeeb;
+}
+
+.ban-1 p{
+    text-align: left;
+    color: #efeeeb;
+}
+.ban-2 i{
+    color: #c45d3c;
+}
+
+.ban-3 i{
+    color: #c45d3c;
+}
+
+.feature-icon {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.feature-icon-card {
+    display: flex;
+    justify-content: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.feature-icon-card i {
+ color: #d64339;
+}
+
+.card-para {
+    color: #b4b0b0;
+}
+
+.heading-white-card {
+    color: #c45d3c;
+}
+
+.banner-info-icon {
+    padding-right: 3rem;
+}
+.banner-info-head {
+    text-align: left;
+    width: 80%;
+}
+.side-img {
+
+    width: 100%;
+    padding: 0;
+}
+.side-img img{
+    visibility: hidden;
+    max-width: 100%;
+    vertical-align: middle;
+     height: auto;
+}
+
+
+
+/******************************************** Location Page Starts *********************************************/
+
+/******************************************** ************* *********************************************/
+
+
+/******************************************** Location  *********************************************/
+
+.well-bg-location {
+    background: #efeeeb;
+    padding: 10px;
+
+}
+
+.well-bg {
+    background: #fff;
+    padding: 10px;
+
+}
+
+.well-inner {
+    background: #fff;
+    text-align: left;
+}
+
+.well-inner strong{
+    padding-left: 2rem;
+}
+
+.well-inner a{
+    background: #403b39;
+}
+
+.well-inner h5{
+    color: #c45d3c;
+    text-transform: uppercase;
+}
+
+.location-card {
+    margin-bottom: 1rem;
+}
+
+/******************************************** Location jumbotron *********************************************/
+
+.location-jumboton{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)) ,url(images/location.jpeg) repeat fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/******************************************** Location Page Ends *********************************************/
+
+/******************************************** ************* *********************************************/
+
+
+
+
+/******************************************** Career Page Starts *********************************************/
+
+/******************************************** ************* *********************************************/
+
+.career-section-title {
+    margin: auto;
+}
+
+.career-section-title h3{
+    text-align: center;
+    color: #2a2b2b;
+}
+
+.mini-container{
+    margin: auto;
+}
+
+/******************************************** job loactions Starts *********************************************/
+
+.job-block {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2.5rem;
+
+}
+
+.job-inner {
+    text-align: center;
+
+    width: 70%;
+    margin: auto;
+}
+
+.job-inner h3 {
+    text-align: left;
+}
+
+.job-location {
+    text-align: left;
+}
+
+.job-position {
+    text-align: left;
+
+}
+
+.job-location i {
+    color: #c45d3c;
+}
+.job-position ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.job-inner a {
+    text-decoration: none;
+}
+
+.heading-title {
+    text-decoration: none;
+    color: #c45d3c;
+}
+
+.heading-title:hover {
+    font-size: 22px;
+    color: #403b39;
+}
+
+
+
+/******************************************** Why to Choose Us *********************************************/
+
+#why-to-choose-us {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.why-heading h3 {
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.why-box {
+    padding-bottom: 2rem;
+}
+
+.why-card {
+    padding-bottom: 2rem;
+
+}
+
+.why-container {
+    padding: 1rem;
+    background: #efeeeb;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+.why-container:hover {
+    color: #fff;
+    background: #2a2b2b;
+}
+
+.why-logo {
+    color: #be532fc0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.why-content h4 {
+    padding-bottom: 0.75rem;
+    font-size: 22px;
+    color: #c45d3c;
+}
+
+.why-content p {
+    font-weight: 350;
+    font-size: 14px;
+}
+
+.why-img img{
+    width: 150px;
+}
+
+
+/******************************************** Media Queries *********************************************/
+
+@media only screen and (max-width: 600px) {
+    .service-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .service-inner-image img {
+        padding-bottom: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .contact-quote-row {
+        padding: 0 1rem;
+    }
+    .contact-quote-inner2 {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .footer-row {
+        padding: 3rem 0.5rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 550px) {
+    .ban-right {
+        padding-left: 1rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .job-inner {
+        text-align: center;
+    
+        width: 100%;
+        margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .job-inner {
+        text-align: center;
+    
+        width: 90%;
+        margin: auto;
+    }
+  }
